@@ -1,10 +1,10 @@
 {
-  "name": "@uniswap/liquidity-staker",
-  "version": "1.0.2",
+  "name": "uniswap-liquidity-staker",
+  "version": "1.0.3",
   "author": "Noah Zinsmeister",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Uniswap/liquidity-staker"
+    "url": "https://github.com/sambacha/liquidity-staker"
   },
   "files": [
     "build"
@@ -21,7 +21,7 @@
     "prepublishOnly": "yarn test"
   },
   "dependencies": {
-    "openzeppelin-solidity-2.3.0": "npm:openzeppelin-solidity@2.3.0"
+    "openzeppelin-solidity": "^2.3.0"
   },
   "devDependencies": {
     "@types/chai": "^4.2.12",
